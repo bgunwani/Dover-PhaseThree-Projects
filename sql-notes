@@ -1,0 +1,47 @@
+
+Commands are not case-sensitive.
+Values are case-sensitive.
+Dates are format-sensitive.
+
+Primary Key:
+
+	- doesn't allow duplicate values.
+	- doesn't allow null values.
+	- helps in relationships.
+	
+Not Null:
+
+	- doesn't allow null values.
+	
+Check:
+
+	- helps in checking the data we enter in column.
+	- For Example, conditional check or value list check and so on.
+
+Default:
+
+	- Allows to insert Default Values.
+	- Such as Default GetDate(), Country, University and so on.
+	
+Unique:
+
+	- doesn't allow duplicate values.
+	- Such as email, security_questions and so on.
+	
+Foreign Key
+
+	- Helps in creating reference key in child table.
+	- We use this key for making relationships.
+	
+Types of JOIN:
+
+	INNER JOIN 
+	OUTER JOIN
+		- LEFT OUTER JOIN: 
+		All Records from left table and only matched records from right table.
+		
+		- RIGHT OUTER JOIN
+		All Records from right table and only matched records from left table.
+		
+		- FULL OUTER JOIN
+		All matched and unmatched records from both table.
