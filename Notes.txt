@@ -1,0 +1,22 @@
+
+ASP.NET Core Web Application:
+
+ViewBag:
+
+	- To transfer the data from the controller to the view and not vice-versa.
+	- ViewBag values will be null if redirection occurs.
+	- ViewBag is available for only one request.
+	
+ViewData:
+
+	- To transfer the data from the controller to the view and not vice-versa.
+	- ViewData values will be null if redirection occurs.
+	- ViewData is available for only one request.
+	- ViewData needs to be type-casted before use.
+	
+TempData:
+
+	- To transfer th data from controller to view and vice versa.
+	- TempData needs to be type-casted before use.
+	- TempData is also available for multipe request even redirection occurs.
+	

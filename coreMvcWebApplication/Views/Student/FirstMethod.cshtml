@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "FirstMethod";
+    var studentData = (IList<Student>)TempData["StudentList"];
+}
+
+<br />
+<h1>@TempData["message"]</h1>
+<br />
+
+<p>Students Count : @TempData["StudentCount"] </p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Student Age</th>
+            <th>Student Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in studentData)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-info" asp-controller="Student" asp-action="SecondMethod">Redirect to Second Method</a>
