@@ -1,0 +1,36 @@
+﻿@model coreCodeFirstApproachApplication.Models.Author
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br/><br/>
+<div class="card">
+    <div class="card-header">
+        <h3>Author Details</h3>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <th>Author Id</th>
+                    <td>@Model.AuthorId</td>
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <td>@Model.FirstName</td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td>@Model.LastName</td>
+                </tr>
+                <tr>
+                    <th>Author Added Date</th>
+                    <td>@Model.AuthorAddedDate</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer">
+        <a asp-action="Index" asp-controller="Author" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

@@ -41,7 +41,7 @@ namespace coreMvcWebApplication.Controllers
             TempData["message"] = "Student Managment System";
             TempData["StudentCount"] = students.Count();
             TempData["StudentList"] = students;
-            TempData.Keep();
+            TempData.Keep("StudentList");
             return View();
         }
         public IActionResult SecondMethod()

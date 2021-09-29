@@ -1,0 +1,27 @@
+﻿@model coreCodeFirstApproachApplication.Models.Author
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form method="post" asp-controller="Author" asp-action="Create">
+    <div class="mb-3">
+        <label for="FirstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" asp-for="FirstName">
+    </div>
+    <div class="mb-3">
+        <label for="LastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <label for="AuthorAddedDate" class="form-label">Author Added Date</label>
+        <input type="text" class="form-control" asp-for="AuthorAddedDate">
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Add Author" class="btn btn-success m-2" />
+        <a class="btn btn-secondary" asp-controller="Author" asp-action="Index">Back to List</a>
+    </div>
+</form>
+<br/>

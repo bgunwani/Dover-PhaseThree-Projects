@@ -20,3 +20,5 @@ TempData:
 	- TempData needs to be type-casted before use.
 	- TempData is also available for multipe request even redirection occurs.
 	
+Entity Framework Core:
+
