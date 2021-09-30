@@ -4,18 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace coreCodeFirstApproachApplication.Models
+namespace coreCodeFirstRelationshipsApplication.Models
 {
     public class ApplicationDBContext: DbContext
     {
         public DbSet<Author> Authors { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<AuthorBiography> AuthorBiographies { get; set; }
+        public DbSet<Book> Books { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Configuring Connection String
-            optionsBuilder.UseSqlServer("Server=DESKTOP-EI4423A;Database=DoverDB;Integrated Security=true;");  
+            optionsBuilder.UseSqlServer("Server=DESKTOP-EI4423A;Database=DoverCorpDB;Integrated Security=true;");
         }
-
     }
 }

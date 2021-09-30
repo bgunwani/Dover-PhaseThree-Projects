@@ -22,3 +22,54 @@ TempData:
 	
 Entity Framework Core:
 
+
+.NET Framework: Entity Framework
+.NET Core: Entity Framework Core 
+
+Entity Framework Core (ORM):
+
+	EF Core is an ORM (Object Relation Mapping).
+	EF Core is a framework for data access in .NET.
+	
+ORM (Object Relation Mapping):
+
+	ORM is a framework that automatically or implicitly creates classes based on database tables and vice versa.
+	
+	ORM helps you to communicate with database in the form of objects.
+	
+	Table - Class
+	Columns - Fields
+	Data	- Values
+
+EF Core Development Approaches:
+
+	1. Code-First Approach
+	2. Database-First Approach
+
+--------------------------------------------------------------
+
+How to Install required Packages for EF Core with SQL Server?:
+
+1. Microsoft.EntityFrameworkCore
+2. Microsoft.EntityFrameworkCore.SqlServer
+3. Microsoft.EntityFrameworkCore.Tools
+4. Microsoft.EntityFrameworkCore.Design
+
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+---------------------------------------------------------------
+
+Migration Commands: (Code-First Approach)
+
+1. Add First Migration:
+
+	add-migration InitialMigrate
+	
+2. Update Database:
+
+	update-database
+	
+--------------------------------------------------------------
