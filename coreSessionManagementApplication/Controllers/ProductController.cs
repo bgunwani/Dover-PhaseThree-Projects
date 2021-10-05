@@ -19,5 +19,10 @@ namespace coreSessionManagementApplication.Controllers
             var products = context.Products.ToList();
             return View(products);
         }
+        public IActionResult Details(int id)
+        {
+            var product = context.Products.Find(id);
+            return View(product);
+        }
     }
 }
