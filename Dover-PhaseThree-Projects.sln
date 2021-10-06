@@ -16,7 +16,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreCodeFirstApproachApplic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreCodeFirstRelationshipsApplication", "coreCodeFirstRelationshipsApplication\coreCodeFirstRelationshipsApplication.csproj", "{28AE74B7-B878-410B-9EDD-A57315D9A13F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreSessionManagementApplication", "coreSessionManagementApplication\coreSessionManagementApplication.csproj", "{40F17032-0772-4B6C-AFFD-8544300B5624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreSessionManagementApplication", "coreSessionManagementApplication\coreSessionManagementApplication.csproj", "{40F17032-0772-4B6C-AFFD-8544300B5624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreAuthorizedContactManager", "coreAuthorizedContactManager\coreAuthorizedContactManager.csproj", "{4625AD8C-3300-4562-899D-1A1050FEE585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreAuthenticationApplication", "coreAuthenticationApplication\coreAuthenticationApplication.csproj", "{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreDatabaseApproachApplication", "coreDatabaseApproachApplication\coreDatabaseApproachApplication.csproj", "{3FB05D5A-1A6D-4309-B240-55A9A6848567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +50,18 @@ Global
 		{40F17032-0772-4B6C-AFFD-8544300B5624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40F17032-0772-4B6C-AFFD-8544300B5624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40F17032-0772-4B6C-AFFD-8544300B5624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4625AD8C-3300-4562-899D-1A1050FEE585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4625AD8C-3300-4562-899D-1A1050FEE585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4625AD8C-3300-4562-899D-1A1050FEE585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4625AD8C-3300-4562-899D-1A1050FEE585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

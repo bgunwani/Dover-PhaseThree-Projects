@@ -15,7 +15,7 @@ namespace coreSessionManagementApplication.Controllers
 
         public ProductAdminController()
         {
-            _context = new ApplicationDBContext() ;
+            _context = new ApplicationDBContext();
         }
 
         // GET: ProductAdmin

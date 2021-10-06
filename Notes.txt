@@ -71,5 +71,9 @@ Migration Commands: (Code-First Approach)
 2. Update Database:
 
 	update-database
+
+	add-migration ContactModelAdded -Context ApplicationDBContext
+
+	update-database -Context ApplicationDBContext
 	
 --------------------------------------------------------------

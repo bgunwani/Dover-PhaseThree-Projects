@@ -29,17 +29,14 @@ namespace coreSessionManagementApplication.Controllers
             && u.UserType == user.UserType).SingleOrDefault();
             if(userObj != null)
             {
-                if (user.Username.Equals(userObj.Username) && user.Password.Equals(userObj.Password))
+                SessionHelper.setObjectAsJson(HttpContext.Session, "user", userObj);
+                User usr = SessionHelper.GetObjectFromJson<User>(HttpContext.Session, "user");
+                if(usr.UserType == "Admin")
                 {
-                    SessionHelper.setObjectAsJson(HttpContext.Session, "user", userObj);
-                    //HttpContext.Session.SetString("username", "Bhawna Gunwani");
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Admin");
                 }
-                else
-                {
-                    ViewBag.Error = "Invalid Credentials";
-                    return View("Index");
-                }
+                return RedirectToAction("Index", "Home");
+                
                 
             }
             else

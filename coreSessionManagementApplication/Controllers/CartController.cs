@@ -73,7 +73,7 @@ namespace coreSessionManagementApplication.Controllers
 
         public IActionResult Checkout()
         {
-            if (HttpContext.Session.GetString("username") != null)
+            if (SessionHelper.GetObjectFromJson<User>(HttpContext.Session, "user") != null)
             {
                 return View();
             }
