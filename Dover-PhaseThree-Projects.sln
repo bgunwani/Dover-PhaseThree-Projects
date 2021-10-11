@@ -18,11 +18,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreCodeFirstRelationshipsA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreSessionManagementApplication", "coreSessionManagementApplication\coreSessionManagementApplication.csproj", "{40F17032-0772-4B6C-AFFD-8544300B5624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreAuthorizedContactManager", "coreAuthorizedContactManager\coreAuthorizedContactManager.csproj", "{4625AD8C-3300-4562-899D-1A1050FEE585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreAuthorizedContactManager", "coreAuthorizedContactManager\coreAuthorizedContactManager.csproj", "{4625AD8C-3300-4562-899D-1A1050FEE585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreAuthenticationApplication", "coreAuthenticationApplication\coreAuthenticationApplication.csproj", "{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreAuthenticationApplication", "coreAuthenticationApplication\coreAuthenticationApplication.csproj", "{64323020-8C9E-4A66-A1B2-E9ED8C035D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreDatabaseApproachApplication", "coreDatabaseApproachApplication\coreDatabaseApproachApplication.csproj", "{3FB05D5A-1A6D-4309-B240-55A9A6848567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreDatabaseApproachApplication", "coreDatabaseApproachApplication\coreDatabaseApproachApplication.csproj", "{3FB05D5A-1A6D-4309-B240-55A9A6848567}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreAdvanceConcepts", "coreAdvanceConcepts\coreAdvanceConcepts.csproj", "{06B1084E-AB30-490C-B7CA-87C96F64DA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreFilterConcept", "coreFilterConcept\coreFilterConcept.csproj", "{B7C246FB-E38C-4275-A48A-211D8238F5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreWebAPIProject", "coreWebAPIProject\coreWebAPIProject.csproj", "{5818BFA1-524F-4058-BC93-F8978A38BE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreAPIServerProject", "coreAPIServerProject\coreAPIServerProject.csproj", "{52E9B911-1DBB-455F-8C00-06190F046A24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +70,22 @@ Global
 		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FB05D5A-1A6D-4309-B240-55A9A6848567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B1084E-AB30-490C-B7CA-87C96F64DA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B1084E-AB30-490C-B7CA-87C96F64DA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B1084E-AB30-490C-B7CA-87C96F64DA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B1084E-AB30-490C-B7CA-87C96F64DA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C246FB-E38C-4275-A48A-211D8238F5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C246FB-E38C-4275-A48A-211D8238F5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C246FB-E38C-4275-A48A-211D8238F5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C246FB-E38C-4275-A48A-211D8238F5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5818BFA1-524F-4058-BC93-F8978A38BE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5818BFA1-524F-4058-BC93-F8978A38BE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5818BFA1-524F-4058-BC93-F8978A38BE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5818BFA1-524F-4058-BC93-F8978A38BE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E9B911-1DBB-455F-8C00-06190F046A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E9B911-1DBB-455F-8C00-06190F046A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E9B911-1DBB-455F-8C00-06190F046A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E9B911-1DBB-455F-8C00-06190F046A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
